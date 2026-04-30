@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -466,6 +465,7 @@ Terrain:
   m_DetailObjectDensity: 1
   m_HeightmapPixelError: 5
   m_SplatMapDistance: 1000
+  m_HeightmapMinimumLODSimplification: 0
   m_HeightmapMaximumLOD: 0
   m_ShadowCastingMode: 2
   m_DrawHeightmap: 1
@@ -788,15 +788,7 @@ MonoBehaviour:
   isAudioSourceMuted: 0
   isListRandomized: 1
   musicList:
-  - {fileID: 8300000, guid: 2ee9614693c15ef4d8eedfee008b1474, type: 3}
-  - {fileID: 8300000, guid: db0e28975c0365f40a54e95d627f08e3, type: 3}
-  - {fileID: 8300000, guid: d0c6f69a6fef1af4e8d7ba71ca074dca, type: 3}
-  - {fileID: 8300000, guid: 95a844389b79d514b93118dee715bb9d, type: 3}
-  - {fileID: 8300000, guid: 1f5ba107ac89e984bb123305c591b232, type: 3}
-  - {fileID: 8300000, guid: 8c61f6818b8e4ec4bbd024e063abd055, type: 3}
-  - {fileID: 8300000, guid: c93993a499a04a748b293d1c910cc026, type: 3}
-  - {fileID: 8300000, guid: 87ccb9380b63ad544b4761aa4f205b11, type: 3}
-  - {fileID: 8300000, guid: a6fe1f4856e4dd54085d11bb3b4e3fa4, type: 3}
+  - {fileID: 8300000, guid: 2603dc984f5c2bd418c0750ecc7b325c, type: 3}
   musicListCount: 0
   currentTrackSelectedNumber: 0
   currentTrackName: 
@@ -1198,6 +1190,7 @@ Terrain:
   m_DetailObjectDensity: 1
   m_HeightmapPixelError: 5
   m_SplatMapDistance: 1000
+  m_HeightmapMinimumLODSimplification: 0
   m_HeightmapMaximumLOD: 0
   m_ShadowCastingMode: 2
   m_DrawHeightmap: 1
@@ -9545,6 +9538,7 @@ Terrain:
   m_DetailObjectDensity: 1
   m_HeightmapPixelError: 5
   m_SplatMapDistance: 1000
+  m_HeightmapMinimumLODSimplification: 0
   m_HeightmapMaximumLOD: 0
   m_ShadowCastingMode: 2
   m_DrawHeightmap: 1
@@ -11169,6 +11163,7 @@ Terrain:
   m_DetailObjectDensity: 1
   m_HeightmapPixelError: 5
   m_SplatMapDistance: 1000
+  m_HeightmapMinimumLODSimplification: 0
   m_HeightmapMaximumLOD: 0
   m_ShadowCastingMode: 2
   m_DrawHeightmap: 1
@@ -11261,6 +11256,7 @@ Terrain:
   m_DetailObjectDensity: 1
   m_HeightmapPixelError: 5
   m_SplatMapDistance: 1000
+  m_HeightmapMinimumLODSimplification: 0
   m_HeightmapMaximumLOD: 0
   m_ShadowCastingMode: 2
   m_DrawHeightmap: 1
@@ -11574,6 +11570,7 @@ MonoBehaviour:
   m_DeselectOnBackgroundClick: 1
   m_PointerBehavior: 0
   m_CursorLockBehavior: 0
+  m_ScrollDeltaPerTick: 6
 --- !u!114 &1316877870
 MonoBehaviour:
   m_ObjectHideFlags: 0
